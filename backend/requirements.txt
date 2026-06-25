@@ -1,0 +1,13 @@
+locust
+pydantic
+pyyaml
+pandas
+faker
+requests
+jsons
+sqlalchemy
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+faker
