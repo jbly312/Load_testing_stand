@@ -22,8 +22,8 @@ GitHub / CLI ──> Locust ──HTTP──> FastAPI ──пул──> Postgr
 ### Быстрый старт
 
 ```bash
-git clone https://github.com/jbly312/load-testing-lab.git
-cd load-testing-lab
+git clone https://github.com/jbly312/load_testing_stand.git
+cd load_testing_stand
 
 cp .env.example .env       # заполнить значения (или взять дефолтные)
 
@@ -32,7 +32,7 @@ docker-compose up --build
 ### Дефолтные значения
 
 
-```bash
+```
 # PostgreSQL
 POSTGRES_USER=shop
 POSTGRES_PASSWORD=shop

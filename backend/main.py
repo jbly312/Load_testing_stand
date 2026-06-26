@@ -35,4 +35,3 @@ def create_order(order: schemas.OrderIn, db: Session = Depends(get_db)):
     db.commit()
     db.refresh(new_order)
     return new_order
-
